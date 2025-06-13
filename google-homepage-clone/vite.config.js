@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/RMgX-assignment/', // 👈 required for GitHub Pages
+  base: '/google-clone/', // <-- must match your GitHub repo name!
   plugins: [react()],
 })
